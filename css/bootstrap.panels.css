@@ -1,0 +1,36 @@
+.panel-font .panel-title, .panel-allcinema .panel-title, .panel-allcinema-noborder .panel-title {
+  font-size: 12px !important; }
+.panel-font .panel-heading, .panel-allcinema .panel-heading, .panel-allcinema-noborder .panel-heading {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important; }
+
+.panel-allcinema {
+  border-color: #dbdbdb; }
+  .panel-allcinema > .panel-heading {
+    color: #fff;
+    background-color: #1e88e5;
+    border-color: #dbdbdb; }
+    .panel-allcinema > .panel-heading + .panel-collapse > .panel-body {
+      border-top-color: #dbdbdb; }
+    .panel-allcinema > .panel-heading .badge {
+      color: #1e88e5;
+      background-color: #fff; }
+  .panel-allcinema > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #dbdbdb; }
+
+.panel-allcinema-noborder {
+  border-color: #dbdbdb;
+  border: none; }
+  .panel-allcinema-noborder > .panel-heading {
+    color: #fff;
+    background-color: #1e88e5;
+    border-color: #dbdbdb; }
+    .panel-allcinema-noborder > .panel-heading + .panel-collapse > .panel-body {
+      border-top-color: #dbdbdb; }
+    .panel-allcinema-noborder > .panel-heading .badge {
+      color: #1e88e5;
+      background-color: #fff; }
+  .panel-allcinema-noborder > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #dbdbdb; }
+
+/*# sourceMappingURL=bootstrap.panels.css.map */
